@@ -84,14 +84,14 @@ const Navbar = () => {
             </Link> */}
           </nav>
 
-          <div className=" hidden lg:flex">
+          <div className=" flex flex-row gap-4 ">
             <button
               className="bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"
               onClick={openForm}
             >
               Contact Us
             </button>
-          </div>
+          
 
           {showForm && <Contact closeForm={closeForm} />}
 
@@ -156,7 +156,7 @@ const Navbar = () => {
               >
                 Blog
               </Link> */}
-
+{/* 
               <div className=" lg:hidden">
                 <button
                   className="menulink  hover:text-hoverColor bg-white text-black transition-all  transition duration-300 ease-in-out"
@@ -164,6 +164,7 @@ const Navbar = () => {
                 >
                   Contact Us
                 </button>
+              </div> */}
               </div>
             </div>
           </div>
