@@ -7,42 +7,42 @@ import "./Testimonials.css";
 const Testimonials = () => {
   const data = [
     {
-      img: "/src/assets/img/doc1.jpg",
+      img: "/src/assets/img/doc1.png",
       name: "Serena Mitchell",
       remark: "Great",
       comment:
         "Game-changer! Incredibly supportive coaches & helpful resources. Tremendous impact on my self-improvement journey.",
     },
     {
-      img: "/src/assets/img/doc2.jpg",
+      img: "/src/assets/img/doc2.png",
       name: "Julian Bennett",
       remark: "Great",
       comment:
         "Exceeded expectations! Expert coaches who genuinely care. Significant improvements in various aspects of my life.",
     },
     {
-      img: "/src/assets/img/doc3.jpg",
+      img: "/src/assets/img/doc3.png",
       name: "Camila Rodriguez",
       remark: "Great",
       comment:
         "Wonderful journey of self-discovery. Amazing coaches provide guidance & support. Goals achieved, obstacles overcome.",
     },
     {
-      img: "/src/assets/img/doc4.jpg",
+      img: "/src/assets/img/doc4.png",
       name: "Victor Nguyen",
       remark: "Great",
       comment:
         "App addresses mental well-being excellently. Personalized coaching helped me develop healthier habits & cope better with stress.",
     },
     {
-      img: "/src/assets/img/doc5.jpg",
+      img: "/src/assets/img/doc5.png",
       name: "Ethan Carter",
       remark: "Great",
       comment:
         "Top-notch app! Expert & empathetic coaches. Transformative experience. Like having a personal cheerleader in your pocket!",
     },
     {
-      img: "/src/assets/img/doc6.jpg",
+      img: "/src/assets/img/doc6.png",
       name: "Olivia Martinez",
       remark: "Great",
       comment:
@@ -80,6 +80,7 @@ const Testimonials = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 2,
+          // centerMode :false
         },
       },
       {
@@ -89,8 +90,9 @@ const Testimonials = () => {
           touchMove: true,
           slidesToShow: 1,
           slidesToScroll: 1,
-          initialSlide: 2,
+          initialSlide: 1,
           centerMode: false,
+          autoplaySpeed: 2000,
         },
       },
     ],

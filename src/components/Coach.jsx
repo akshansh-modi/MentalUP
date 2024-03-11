@@ -7,47 +7,49 @@ import "./Coach.css";
 const Coach = () => {
   const data = [
     {
-      img: "/src/assets/img/doc1.jpg",
+      img: "/src/assets/img/doc1.png",
       name: "Serena Mitchell",
       remark: "Great",
-      comment: "Game-changer! Incredibly supportive coaches & helpful resources. Tremendous impact on my self-improvement journey.",
+      comment:
+        "Game-changer! Incredibly supportive coaches & helpful resources. Tremendous impact on my self-improvement journey.",
     },
     {
-      img: "/src/assets/img/doc2.jpg",
+      img: "/src/assets/img/doc2.png",
       name: "Julian Bennett",
       remark: "Great",
-      comment: "Exceeded expectations! Expert coaches who genuinely care. Significant improvements in various aspects of my life.",
+      comment:
+        "Exceeded expectations! Expert coaches who genuinely care. Significant improvements in various aspects of my life.",
     },
     {
-      img: "/src/assets/img/doc3.jpg",
+      img: "/src/assets/img/doc3.png",
       name: "Camila Rodriguez",
       remark: "Great",
-      comment: "Wonderful journey of self-discovery. Amazing coaches provide guidance & support. Goals achieved, obstacles overcome.",
+      comment:
+        "Wonderful journey of self-discovery. Amazing coaches provide guidance & support. Goals achieved, obstacles overcome.",
     },
     {
-      img: "/src/assets/img/doc4.jpg",
+      img: "/src/assets/img/doc4.png",
       name: "Victor Nguyen",
       remark: "Great",
-      comment: "App addresses mental well-being excellently. Personalized coaching helped me develop healthier habits & cope better with stress.",
+      comment:
+        "App addresses mental well-being excellently. Personalized coaching helped me develop healthier habits & cope better with stress.",
     },
     {
-      img: "/src/assets/img/doc5.jpg",
+      img: "/src/assets/img/doc5.png",
       name: "Ethan Carter",
       remark: "Great",
-      comment: "Top-notch app! Expert & empathetic coaches. Transformative experience. Like having a personal cheerleader in your pocket!",
+      comment:
+        "Top-notch app! Expert & empathetic coaches. Transformative experience. Like having a personal cheerleader in your pocket!",
     },
     {
-      img: "/src/assets/img/doc6.jpg",
+      img: "/src/assets/img/doc6.png",
       name: "Olivia Martinez",
       remark: "Great",
-      comment: "Serious about self-improvement? Look no further! Top-notch coaches & comprehensive resources. Transformative results!",
+      comment:
+        "Serious about self-improvement? Look no further! Top-notch coaches & comprehensive resources. Transformative results!",
     },
   ];
-  
-  
 
-  
-  
   const slider = useRef(null);
 
   const settings = {
@@ -59,8 +61,8 @@ const Coach = () => {
     slidesToShow: 4,
     slidesToScroll: 1,
     centerMode: true,
-    autoplay:true,
-    autoplaySpeed:1500,
+    autoplay: true,
+    autoplaySpeed: 1500,
 
     responsive: [
       {
@@ -88,7 +90,7 @@ const Coach = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
-          centerMode: false,  
+          centerMode: false,
         },
       },
     ],
@@ -102,7 +104,8 @@ const Coach = () => {
             Coaches
           </h1>
           <p className=" mt-2 text-center lg:text-start">
-          Unlock Your Potential, Transform Your Mind: Empowering Mental Health, One Step at a Time!
+            Unlock Your Potential, Transform Your Mind: Empowering Mental
+            Health, One Step at a Time!
           </p>
         </div>
       </div>
@@ -122,7 +125,7 @@ const Coach = () => {
               </div>
 
               <div className="my-auto flex flex-col justify-center items-center">
-                <h1 className=" font-semibold  textg-md  pt-4 " >{e.name}</h1>
+                <h1 className=" font-semibold  textg-md  pt-4 ">{e.name}</h1>
                 <h3 className=" pt-2">{e.remark}</h3>
                 <p className="p-2 text-xs ">{e.comment}</p>
               </div>
