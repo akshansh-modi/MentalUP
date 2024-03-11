@@ -8,35 +8,76 @@
     position: relative;
 
   }
-  .schedule{
-    padding:1% 1% 1% 2%;
+  .schedule {
+    padding: 1% 1% 1% 2%;
     position: absolute;
-    top:20%;
+    top: 20%;
     left: 10%;
-   width: 35%;
+    width: 35%;
     z-index: 2;
     opacity: 0.5;
-    background-color:aliceblue;
+    background-color: aliceblue;
   }
-  .schedule h1{
   
+  .schedule h1 {
     color: black;
     font-family: "Questrial";
     font-weight: 600;
     font-style: normal;
   }
-  .schedule p{
-    
+  
+  .schedule p {
     color: black;
   }
-.schedule button{
-  text-decoration: underline;
+  
+  .schedule button {
+    text-decoration: underline;
     color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-   
     cursor: pointer;
   }
   
+  /* Media queries for different screen sizes */
+  @media screen and (max-width: 1024px) {
+    .schedule {
+      width: 45%;
+      left: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .schedule {
+      width: 60%;
+      left: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .schedule {
+      width: 75%;
+      left: 15%;
+      top: 15%;
+      padding: 2%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .schedule {
+      width: 85%;
+      left: 10%;
+      top: 10%;
+      padding: 3%;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .schedule {
+      width: 90%;
+      left: 5%;
+      top: 5%;
+      padding: 4%;
+    }
+  }
   
