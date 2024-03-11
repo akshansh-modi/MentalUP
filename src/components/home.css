@@ -67,7 +67,8 @@
     .schedule {
       width: 85%;
       left: 10%;
-      top: 10%;
+   
+
       padding: 3%;
     }
   }
@@ -78,6 +79,7 @@
       left: 5%;
       top: 5%;
       padding: 4%;
+     
     }
   }
   
