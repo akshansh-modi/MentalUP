@@ -1,13 +1,38 @@
 #main1 {
-    background-image: url('../assets/img/home.png');
-    background-position: top center;
-    background-attachment:scroll;
-    background-size: cover;
-    height: 120vh;
-    width: 100%;
-    position: relative;
+  background-image: url('../assets/img/home.png');
+  background-position: top center;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 120vh;
+  width: 100%;
+  position: relative;
+}
 
+/* Media queries for different screen sizes */
+@media screen and (max-width: 1024px) {
+  #main1 {
+    height: 100vh; /* Adjust height for smaller screens */
   }
+}
+
+@media screen and (max-width: 768px) {
+  #main1 {
+    background-position: center center; /* Adjust background position for smaller screens */
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #main1 {
+    height: 80vh; /* Further adjust height for even smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #main1 {
+    height: 60vh; /* Adjust height for very small screens */
+  }
+}
+
   .schedule {
     padding: 1% 1% 1% 2%;
     position: absolute;
