@@ -7,7 +7,7 @@ import "./Coach.css";
 const Coach = () => {
   const data = [
     {
-      img: "/assets/img/doc1.png",
+      img: "/img/doc1.png",
       name: "Serena Mitchell",
       remark: "Great",
       comment:
