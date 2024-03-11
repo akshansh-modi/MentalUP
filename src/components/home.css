@@ -1,0 +1,42 @@
+#main1 {
+    background-image: url('../assets/img/home.png');
+    background-position: top center;
+    background-attachment:scroll;
+    background-size: cover;
+    height: 120vh;
+    width: 100%;
+    position: relative;
+
+  }
+  .schedule{
+    padding:1% 1% 1% 2%;
+    position: absolute;
+    top:20%;
+    left: 10%;
+   width: 35%;
+    z-index: 2;
+    opacity: 0.5;
+    background-color:aliceblue;
+  }
+  .schedule h1{
+  
+    color: black;
+    font-family: "Questrial";
+    font-weight: 600;
+    font-style: normal;
+  }
+  .schedule p{
+    
+    color: black;
+  }
+.schedule button{
+  text-decoration: underline;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+   
+    cursor: pointer;
+  }
+  
+  
