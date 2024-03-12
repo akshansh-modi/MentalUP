@@ -7,44 +7,50 @@ import "./Testimonials.css";
 const Testimonials = () => {
   const data = [
     {
-      img: "img/doc1.png",
+      img: "img/test1.jpg",
       name: "Serena Mitchell",
       remark: "Great",
+     
       comment:
         "Game-changer! Incredibly supportive coaches & helpful resources. Tremendous impact on my self-improvement journey.",
     },
     {
-      img: "img/doc2.png",
+      img: "img/test2.jpg",
       name: "Julian Bennett",
       remark: "Great",
+     
       comment:
         "Exceeded expectations! Expert coaches who genuinely care. Significant improvements in various aspects of my life.",
     },
     {
-      img: "img/doc3.png",
+      img: "img/test3.jpg",
       name: "Camila Rodriguez",
       remark: "Great",
+     
       comment:
         "Wonderful journey of self-discovery. Amazing coaches provide guidance & support. Goals achieved, obstacles overcome.",
     },
     {
-      img: "img/doc4.png",
+      img: "img/test4.jpg",
       name: "Victor Nguyen",
       remark: "Great",
+     
       comment:
         "App addresses mental well-being excellently. Personalized coaching helped me develop healthier habits & cope better with stress.",
     },
     {
-      img: "img/doc5.png",
+      img: "img/test5.jpg",
       name: "Ethan Carter",
       remark: "Great",
+     
       comment:
         "Top-notch app! Expert & empathetic coaches. Transformative experience. Like having a personal cheerleader in your pocket!",
     },
     {
-      img: "img/doc6.png",
+      img: "img/test6.jpg",
       name: "Olivia Martinez",
       remark: "Great",
+     
       comment:
         "Serious about self-improvement? Look no further! Top-notch coaches & comprehensive resources. Transformative results!",
     },
@@ -123,6 +129,7 @@ const Testimonials = () => {
                   src={e.img}
                   alt="img"
                   className="mx-auto h-14 w-14 object-cover  "
+                  loading="lazy"
                 />
               </div>
 

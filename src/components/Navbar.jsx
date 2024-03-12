@@ -27,7 +27,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" fixed w-full z-10 text-black">
+    <div className=" top-0 sticky w-full z-10 text-black">
       <div>
         <div className=" flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
           <div className=" flex flex-row items-center cursor-pointer">
@@ -71,7 +71,7 @@ const Navbar = () => {
               duration={500}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
-             Coaches
+              Coaches
             </Link>
             {/* <Link
               to="blog"
@@ -91,62 +91,61 @@ const Navbar = () => {
             >
               Contact Us
             </button>
-          
 
-          {showForm && <Contact closeForm={closeForm} />}
+            {showForm && <Contact closeForm={closeForm} />}
 
-          <div className=" lg:hidden flex items-center">
-            {menu ? (
-              <AiOutlineClose size={28} onClick={handleChange} />
-            ) : (
-              <AiOutlineMenu size={28} onClick={handleChange} />
-            )}
-            <div
-              className={`${
-                menu ? "flex" : "hidden"
-              } lg:hidden flex flex-col absolute bg-white text-black right-0 top-16 font-semibold text-md text-center   pb-1 rounded-lg w-[7rem] gap-1  h-fit transition-transform duration-300`}
-            >
-              <Link
-                to="home"
-                spy={true}
-                smooth={true}
-                duration={500}
-                className=" menulink hover:text-hoverColor transition-all cursor-pointer"
-                onClick={closeMenu}
+            <div className=" lg:hidden flex items-center">
+              {menu ? (
+                <AiOutlineClose size={28} onClick={handleChange} />
+              ) : (
+                <AiOutlineMenu size={28} onClick={handleChange} />
+              )}
+              <div
+                className={`${
+                  menu ? "flex" : "hidden"
+                } lg:hidden flex flex-col absolute bg-white text-black right-0 top-16 font-semibold text-md text-center   pb-1 rounded-lg w-[7rem] gap-1  h-fit transition-transform duration-300`}
               >
-                Home
-              </Link>
-              <Link
-                to="about"
-                spy={true}
-                smooth={true}
-                duration={500}
-                className="menulink  hover:text-hoverColor transition-all cursor-pointer"
-                onClick={closeMenu}
-              >
-                About Us
-              </Link>
-              <Link
-                to="services"
-                spy={true}
-                smooth={true}
-                duration={500}
-                className="menulink  hover:text-hoverColor transition-all cursor-pointer"
-                onClick={closeMenu}
-              >
-                Services
-              </Link>
-              <Link
-                to="doctors"
-                spy={true}
-                smooth={true}
-                duration={500}
-                className=" menulink  hover:text-hoverColor transition-all cursor-pointer"
-                onClick={closeMenu}
-              >
-               Coaches
-              </Link>
-              {/* <Link
+                <Link
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  className=" menulink hover:text-hoverColor transition-all cursor-pointer"
+                  onClick={closeMenu}
+                >
+                  Home
+                </Link>
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  className="menulink  hover:text-hoverColor transition-all cursor-pointer"
+                  onClick={closeMenu}
+                >
+                  About Us
+                </Link>
+                <Link
+                  to="services"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  className="menulink  hover:text-hoverColor transition-all cursor-pointer"
+                  onClick={closeMenu}
+                >
+                  Services
+                </Link>
+                <Link
+                  to="doctors"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  className=" menulink  hover:text-hoverColor transition-all cursor-pointer"
+                  onClick={closeMenu}
+                >
+                  Coaches
+                </Link>
+                {/* <Link
                 to="blog"
                 spy={true}
                 smooth={true}
@@ -156,7 +155,7 @@ const Navbar = () => {
               >
                 Blog
               </Link> */}
-{/* 
+                {/* 
               <div className=" lg:hidden">
                 <button
                   className="menulink  hover:text-hoverColor bg-white text-black transition-all  transition duration-300 ease-in-out"

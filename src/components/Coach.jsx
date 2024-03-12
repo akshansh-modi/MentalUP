@@ -5,48 +5,48 @@ import "slick-carousel/slick/slick-theme.css";
 import "./Coach.css";
 
 const Coach = () => {
-  const data = [
+   const data = [
     {
       img: "/img/doc1.png",
       name: "Serena Mitchell",
       remark: "Great",
-      comment:
-        "Game-changer! Incredibly supportive coaches & helpful resources. Tremendous impact on my self-improvement journey.",
+      about:
+        "Specializes in cognitive behavioral therapy for anxiety and depression.",
     },
     {
       img: "/img/doc2.png",
       name: "Julian Bennett",
       remark: "Great",
-      comment:
-        "Exceeded expectations! Expert coaches who genuinely care. Significant improvements in various aspects of my life.",
+      about:
+        "Licensed clinical psychologist specializing in stress management and mindfulness.",
     },
     {
       img: "/img/doc3.png",
       name: "Camila Rodriguez",
       remark: "Great",
-      comment:
-        "Wonderful journey of self-discovery. Amazing coaches provide guidance & support. Goals achieved, obstacles overcome.",
+      about:
+        "Certified life coach focusing on holistic wellness and personal development.",
     },
     {
       img: "/img/doc4.png",
       name: "Victor Nguyen",
       remark: "Great",
-      comment:
-        "App addresses mental well-being excellently. Personalized coaching helped me develop healthier habits & cope better with stress.",
+      about:
+        "Licensed therapist promoting mental well-being and resilience-building.",
     },
     {
       img: "/img/doc5.png",
       name: "Ethan Carter",
       remark: "Great",
-      comment:
-        "Top-notch app! Expert & empathetic coaches. Transformative experience. Like having a personal cheerleader in your pocket!",
+      about:
+        "Certified coach specializing in performance psychology and goal achievement.",
     },
     {
       img: "/img/doc6.png",
       name: "Olivia Martinez",
       remark: "Great",
-      comment:
-        "Serious about self-improvement? Look no further! Top-notch coaches & comprehensive resources. Transformative results!",
+      about:
+        "Licensed therapist experienced in mindfulness-based therapy and self-compassion practices.",
     },
   ];
 
@@ -121,13 +121,15 @@ const Coach = () => {
                   src={e.img}
                   alt="img"
                   className="mx-auto h-14 w-14 object-cover rounded-full "
+                  loading="lazy"
+
                 />
               </div>
 
               <div className="my-auto flex flex-col justify-center items-center">
                 <h1 className=" font-semibold  textg-md  pt-4 ">{e.name}</h1>
                 <h3 className=" pt-2">{e.remark}</h3>
-                <p className="p-2 text-xs ">{e.comment}</p>
+                <p className="p-2 text-center text-xs ">{e.about}</p>
               </div>
             </div>
           ))}
