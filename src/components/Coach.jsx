@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./Coach.css";
 
 const Coach = () => {
+ 
    const data = [
     {
       img: "/img/doc1.png",
