@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import Button from "../layouts/Button";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Contact from "../models/Contact";
@@ -64,15 +65,15 @@ const Navbar = () => {
             >
               Services
             </Link>
-            <Link
-              to="doctors"
+            <RouterLink
+              to="/coaches"
               spy={true}
               smooth={true}
               duration={500}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
               Coaches
-            </Link>
+            </RouterLink>
             {/* <Link
               to="blog"
               spy={true}
@@ -135,8 +136,8 @@ const Navbar = () => {
                 >
                   Services
                 </Link>
-                <Link
-                  to="doctors"
+                <RouterLink
+                  to="/coaches"
                   spy={true}
                   smooth={true}
                   duration={500}
@@ -144,7 +145,7 @@ const Navbar = () => {
                   onClick={closeMenu}
                 >
                   Coaches
-                </Link>
+                </RouterLink>
                 {/* <Link
                 to="blog"
                 spy={true}

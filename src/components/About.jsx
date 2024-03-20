@@ -37,7 +37,7 @@ const About = () => {
               src="https://www.youtube.com/embed/VCPGMjCW0is?si=UAThumH92eSGOQil&rel=0"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </div>

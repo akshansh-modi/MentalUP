@@ -1,0 +1,15 @@
+.imgdiv{
+
+/* width: 50vw; */
+/* width:100%; */
+
+}
+
+
+
+.imgdiv img{
+
+   object-fit:cover;
+ width:100%;
+ height: 100%;
+}

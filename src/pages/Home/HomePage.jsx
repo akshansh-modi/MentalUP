@@ -1,12 +1,8 @@
 
-import Navbar from "../../components/Navbar";
-import Home from "../../components/Home";
-import About from "../../components/About";
-import Services from "../../components/Services";
-import Coach from "../../components/Coach";
+import { About, Coach, Footer, Home, Navbar, Services } from "../../components/exports";
+
 
 // import Blogs from "./components/Blogs";
-import Footer from "../../components/Footer";
 // import withSplashScreen from './components/withSplashScreen';
 
 const HomePage = () => {
