@@ -65,7 +65,16 @@ const Navbar = () => {
             >
               Services
             </Link>
-            <RouterLink
+            <Link
+              to="doctors"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className=" hover:text-hoverColor transition-all cursor-pointer"
+            >
+              Coaches
+            </Link>
+            {/* <RouterLink
               to="/coaches"
               spy={true}
               smooth={true}
@@ -73,7 +82,7 @@ const Navbar = () => {
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
               Coaches
-            </RouterLink>
+            </RouterLink> */}
             {/* <Link
               to="blog"
               spy={true}
@@ -136,7 +145,17 @@ const Navbar = () => {
                 >
                   Services
                 </Link>
-                <RouterLink
+                <Link
+                  to="doctors"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  className=" menulink  hover:text-hoverColor transition-all cursor-pointer"
+                  onClick={closeMenu}
+                >
+                  Coaches
+                </Link>
+                {/* <RouterLink
                   to="/coaches"
                   spy={true}
                   smooth={true}
@@ -145,7 +164,7 @@ const Navbar = () => {
                   onClick={closeMenu}
                 >
                   Coaches
-                </RouterLink>
+                </RouterLink> */}
                 {/* <Link
                 to="blog"
                 spy={true}
