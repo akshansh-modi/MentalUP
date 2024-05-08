@@ -5,46 +5,45 @@ import "slick-carousel/slick/slick-theme.css";
 import "./Coach.css";
 
 const Coach = () => {
- 
-   const data = [
+  const data = [
     {
-      img: "/img/doc1.png",
-      name: "Serena Mitchell",
+      img: "/img/doc1.webp",
+      name: "Mahak Gupta",
       // remark: "Great",
       about:
         "Specializes in cognitive behavioral therapy for anxiety and depression.",
     },
     {
-      img: "/img/doc2.png",
-      name: "Julian Bennett",
+      img: "/img/doc2.webp",
+      name: "Tanisha Modi",
       // remark: "Great",
       about:
         "Licensed clinical psychologist specializing in stress management and mindfulness.",
     },
     {
-      img: "/img/doc3.png",
-      name: "Camila Rodriguez",
+      img: "/img/doc3.webp",
+      name: "Armaan Sharma",
       // remark: "Great",
       about:
         "Certified life coach focusing on holistic wellness and personal development.",
     },
     {
-      img: "/img/doc4.png",
-      name: "Victor Nguyen",
+      img: "/img/doc4.webp",
+      name: "Gagandeep Magan",
       // remark: "Great",
       about:
         "Licensed therapist promoting mental well-being and resilience-building.",
     },
     {
-      img: "/img/doc5.png",
-      name: "Ethan Carter",
+      img: "/img/doc5.webp",
+      name: "Akshansh Modi",
       // remark: "Great",
       about:
         "Certified coach specializing in performance psychology and goal achievement.",
     },
     {
-      img: "/img/doc6.png",
-      name: "Olivia Martinez",
+      img: "/img/doc6.webp",
+      name: "Riya Sharma",
       // remark: "Great",
       about:
         "Licensed therapist experienced in mindfulness-based therapy and self-compassion practices.",
@@ -123,13 +122,12 @@ const Coach = () => {
                   alt="img"
                   className="mx-auto h-14 w-14 object-cover rounded-full "
                   loading="lazy"
-
                 />
               </div>
 
               <div className="my-auto flex flex-col justify-center items-center">
                 <h1 className=" font-semibold  textg-md  pt-4 ">{e.name}</h1>
-               {/* { <h3 className=" pt-2">{e.remark}</h3>} */}
+                {/* { <h3 className=" pt-2">{e.remark}</h3>} */}
                 <p className="p-2 text-center text-xs ">{e.about}</p>
               </div>
             </div>
