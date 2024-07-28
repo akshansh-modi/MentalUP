@@ -8,35 +8,35 @@ const Coach = () => {
   const data = [
     {
       img: "/img/doc1.webp",
-      name: "Mahak Gupta",
+      name: "Aisha Gupta",
       // remark: "Great",
       about:
         "Specializes in cognitive behavioral therapy for anxiety and depression.",
     },
     {
       img: "/img/doc2.webp",
-      name: "Tanisha Modi",
+      name: "Tara Agarwal",
       // remark: "Great",
       about:
         "Licensed clinical psychologist specializing in stress management and mindfulness.",
     },
     {
       img: "/img/doc3.webp",
-      name: "Armaan Sharma",
+      name: "Akhil Sharma",
       // remark: "Great",
       about:
         "Certified life coach focusing on holistic wellness and personal development.",
     },
     {
       img: "/img/doc4.webp",
-      name: "Gagandeep Magan",
+      name: "Aman Singh",
       // remark: "Great",
       about:
         "Licensed therapist promoting mental well-being and resilience-building.",
     },
     {
       img: "/img/doc5.webp",
-      name: "Akshansh Modi",
+      name: "Vikram Patel",
       // remark: "Great",
       about:
         "Certified coach specializing in performance psychology and goal achievement.",
