@@ -1,0 +1,9 @@
+version: '3'
+services:
+  mentalup-client: # Name of the service
+    build: .  # Build the service using the current directory as the build context
+    volumes:
+      - './:/app'  # Mount the current directory as a volume inside the container at /app
+      - '/app/node_modules'  # Ensures that the node_modules directory inside the container is not overwritten by the volume mounting.
+    ports:
+      - "80:3000"  # Maps port 3000 of the host to port 3000 of the container.
